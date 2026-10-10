@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Club Barber — barbearia por assinatura em Curitiba, no Sítio Cercado. Cortes, barba e cuidados masculinos.">
+  <meta name="theme-color" content="#111111">
+  <title>Club Barber | Barbearia em Curitiba</title>
+  <style>
+    :root{--black:#111;--panel:#191919;--white:#f7f7f5;--muted:#bdbdb8;--gold:#c7aa70;--line:#343434}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--black);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit} .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:rgba(17,17,17,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}
+    .logo{font-size:1.25rem;font-weight:900;letter-spacing:.13em}.logo span{color:var(--gold)}
+    nav{display:flex;gap:20px;flex-wrap:wrap} nav a{text-decoration:none;color:var(--muted);font-size:.92rem} nav a:hover{color:var(--white)}
+    .hero{padding:88px 0 78px;background:radial-gradient(ellipse at 80% 25%,#30291d 0,transparent 40%),linear-gradient(135deg,#111,#171717)}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font-weight:bold;font-size:.78rem}
+    h1{font-size:clamp(2.7rem,7vw,5.3rem);line-height:1.02;max-width:780px;margin:18px 0} h1 em{font-style:normal;color:var(--gold)}
+    .lead{max-width:650px;color:#d4d4d0;font-size:1.12rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:13px 19px;text-decoration:none;font-weight:bold;border-radius:4px;border:1px solid var(--gold)}
+    .primary{background:var(--gold);color:#151515}.secondary{color:var(--white)}
+    section{padding:68px 0;border-bottom:1px solid var(--line)} h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 18px}
+    .intro{max-width:700px;color:var(--muted)} .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:28px}
+    .service,.info{background:var(--panel);border:1px solid var(--line);padding:23px;border-radius:6px}
+    .service .num{color:var(--gold);font-size:.8rem;letter-spacing:.14em;font-weight:bold}.service h3{margin:9px 0 5px}.service p,.info p{margin:0;color:var(--muted)}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+    .facts{display:grid;gap:12px}.fact{padding:15px 0;border-bottom:1px solid var(--line)}.fact strong{display:block;color:var(--gold);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}
+    footer{padding:30px 0;color:var(--muted);font-size:.88rem} .foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    footer a{color:var(--white)} .legal{font-size:.9rem;color:var(--muted);max-width:850px}
+    .notice{font-size:.82rem;color:var(--muted);margin-top:18px}
+    @media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{padding:62px 0}.grid{grid-template-columns:1fr}.about,.contact-grid{grid-template-columns:1fr}section{padding:52px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#inicio" aria-label="Club Barber início" style="text-decoration:none">CLUB <span>BARBER</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a><a href="#privacidade">Privacidade</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div class="eyebrow">Barbearia • Curitiba — Sítio Cercado</div>
+      <h1>Seu estilo.<br><em>Seu cuidado.</em><br>Seu clube.</h1>
+      <p class="lead">A Club Barber é uma barbearia com proposta de assinatura e serviços de cuidado masculino. Nosso objetivo é oferecer praticidade, atendimento atencioso e um ambiente preparado para você.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/5541998448844?text=Ol%C3%A1%2C%20Club%20Barber!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os." target="_blank" rel="noopener noreferrer">Fale pelo WhatsApp</a>
+        <a class="btn secondary" href="#servicos">Conheça os serviços</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="wrap about">
+      <div>
+        <div class="eyebrow">Sobre a Club Barber</div>
+        <h2>Mais do que um corte, uma experiência de cuidado.</h2>
+        <p class="intro">A Club Barber atua desde 2021 e atende clientes em Curitiba, no bairro Sítio Cercado. Trabalhamos com serviços de barbearia e uma proposta de assinatura para quem busca mais praticidade na rotina.</p>
+        <p class="intro">Quer conhecer os planos, confirmar valores ou verificar a disponibilidade? Entre em contato diretamente com nossa equipe pelo WhatsApp.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><strong>Localização</strong>Rua Pedro Claudino da Rocha, 278<br>Curitiba — PR</div>
+        <div class="fact"><strong>Horário de atendimento</strong>Segunda a sexta: 09h às 19h<br>Sábado: 09h às 18h30<br>Domingo: fechado</div>
+        <div class="fact"><strong>Atendimento</strong>Informações e agendamentos pelo WhatsApp.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="wrap">
+      <div class="eyebrow">O que oferecemos</div>
+      <h2>Serviços</h2>
+      <p class="intro">Consulte a equipe para confirmar disponibilidade, valores e condições dos serviços e dos planos de assinatura.</p>
+      <div class="grid">
+        <article class="service"><div class="num">01 / BARBEARIA</div><h3>Corte de cabelo</h3><p>Cortes masculinos e acabamento de acordo com o estilo desejado.</p></article>
+        <article class="service"><div class="num">02 / BARBEARIA</div><h3>Barba</h3><p>Cuidados e alinhamento da barba.</p></article>
+        <article class="service"><div class="num">03 / ACABAMENTO</div><h3>Sobrancelha</h3><p>Acabamento para complementar o visual.</p></article>
+        <article class="service"><div class="num">04 / CUIDADOS</div><h3>Hidratação e limpeza de pele</h3><p>Opções de cuidado pessoal oferecidas pela barbearia.</p></article>
+        <article class="service"><div class="num">05 / CUIDADOS</div><h3>Depilação nasal</h3><p>Serviço complementar de cuidado masculino.</p></article>
+        <article class="service"><div class="num">06 / CUIDADOS</div><h3>Selagem</h3><p>Consulte a equipe sobre indicação, disponibilidade e valores.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="eyebrow">Fale com a equipe</div>
+      <h2>Entre em contato</h2>
+      <p class="intro">Para agendar, consultar os planos de assinatura ou tirar dúvidas, fale com a Club Barber pelos canais abaixo.</p>
+      <div class="contact-grid">
+        <div class="info"><h3>WhatsApp</h3><p>(41) 99844-8844</p><p style="margin-top:14px"><a class="btn primary" href="https://wa.me/5541998448844?text=Ol%C3%A1%2C%20Club%20Barber!" target="_blank" rel="noopener noreferrer">Conversar agora</a></p></div>
+        <div class="info"><h3>E-mail</h3><p><a href="mailto:clubbarberswork@gmail.com">clubbarberswork@gmail.com</a></p><p style="margin-top:14px">Endereço: Rua Pedro Claudino da Rocha, 278, Curitiba — PR.</p></div>
+      </div>
+      <p class="notice">Os horários e serviços podem sofrer alterações. Confirme as informações diretamente com a equipe antes de se deslocar até a barbearia.</p>
+    </div>
+  </section>
+
+  <section id="privacidade">
+    <div class="wrap">
+      <div class="eyebrow">Informações legais</div>
+      <h2>Política de privacidade</h2>
+      <div class="legal">
+        <p><strong>Última atualização: 9 de outubro de 2026.</strong></p>
+        <p>Este site apresenta informações institucionais da Club Barber e disponibiliza links para contato por WhatsApp e e-mail. O site não possui, nesta versão, formulários de cadastro, pagamentos ou área de usuário.</p>
+        <p><strong>Informações fornecidas por você.</strong> Se você iniciar uma conversa pelo WhatsApp ou enviar um e-mail, as informações que decidir compartilhar serão tratadas por meio do serviço correspondente para responder à sua solicitação e prestar atendimento.</p>
+        <p><strong>Dados de navegação.</strong> Esta versão do site não adiciona intencionalmente ferramentas próprias de publicidade, analytics ou cookies de rastreamento. O provedor de hospedagem e os serviços externos acessados podem processar dados técnicos conforme suas próprias políticas.</p>
+        <p><strong>Compartilhamento e segurança.</strong> Não vendemos dados pessoais. Informações poderão ser tratadas quando necessário para atender sua solicitação, cumprir obrigações legais ou proteger direitos. Adotamos uma abordagem de minimização de dados, mas nenhum serviço online pode garantir segurança absoluta.</p>
+        <p><strong>Seus direitos e contato.</strong> Para solicitar esclarecimentos sobre privacidade ou exercer direitos previstos na legislação aplicável, entre em contato pelo e-mail <a href="mailto:clubbarberswork@gmail.com">clubbarberswork@gmail.com</a>.</p>
+        <p><strong>Responsável pelas informações do site:</strong> HEVERTON SANTOS AZEVEDO, CNPJ 60.875.852/0001-80, nome comercial Club Barber, endereço informado: Rua Pedro Claudino da Rocha, 278, Curitiba — PR.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div><strong style="color:#f7f7f5">CLUB <span style="color:#c7aa70">BARBER</span></strong><br>Curitiba — PR</div>
+    <div>HEVERTON SANTOS AZEVEDO · CNPJ 60.875.852/0001-80<br><a href="#privacidade">Política de privacidade</a></div>
+    <div>© <span id="year">2026</span> Club Barber. Todos os direitos reservados.</div>
+  </div>
+</footer>
+</body>
+</html>
